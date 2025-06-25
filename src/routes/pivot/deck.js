@@ -11,6 +11,7 @@ eq.addLine({
   content: "Math Formula Showcase",
   showAt: 0
 });
+eq.addSp({ type: "heading", content: "A quick review of famous formulas" });
 eq.addSp({ type: "text", content: "A quick review of famous formulas" });
 
 // Line 1: mass–energy equivalence
@@ -20,7 +21,10 @@ eq.addLine({
   showAt: 5
 });
 eq.addSp({ type: "math", content: "E = mc^2" });
-
+eq.addSp({
+  type: "image",
+  content: "/pivot/box.webp"
+});
 // Line 2: quadratic formula
 eq.addLine({
   type: "math",
