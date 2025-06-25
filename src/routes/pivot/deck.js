@@ -16,10 +16,36 @@ deckbuilder.s.eq(70, [
   { name: "line", content: "F = ma", showAt: 0 },
   { name: "sp", type: "image", content: "/pivot/box.webp" },
 
-  { name: "line", content: "F = 2 × 3", showAt: 4 },
+  { name: "line", content: "F = 2 × 3", showAt: 2 },
+
+  { name: "line", content: "F = 6 N", showAt: 4 },
+  { name: "sp", type: "title", content: "Final Result" },
+
+
+  { name: "line", content: "F = 6 N", showAt: 6 },
+  { name: "sp", type: "title", content: "Final Result" },
+
 
   { name: "line", content: "F = 6 N", showAt: 8 },
-  { name: "sp", type: "title", content: "Final Result" }
+  { name: "sp", type: "title", content: "Final Result" },
+
+
+  { name: "line", content: "F = 6 N", showAt: 10 },
+  { name: "sp", type: "title", content: "Final Result" },
+
+
+  { name: "line", content: "F = 6 N", showAt: 12 },
+  { name: "sp", type: "title", content: "Final Result" },
+
+
+  { name: "line", content: "F = 6 N", showAt: 14 },
+  { name: "sp", type: "title", content: "Final Result" },
+
+
+  { name: "line", content: "F = 6 N", showAt: 16 },
+  { name: "sp", type: "title", content: "Final Result" },
+
+
 ]);
 
 
