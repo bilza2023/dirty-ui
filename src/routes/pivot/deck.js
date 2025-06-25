@@ -8,37 +8,39 @@ const imagesList = [
   "/pivot/fbise9physics.webp",
   "/pivot/banner_brand.png"
 ];
-
-// Slide 7: Equation Slide
 deckbuilder.s.eq(70, [
-  { name: "sp", type: "text", content: "Default: Force is a fundamental concept." },
+  { name: "sp", type: "text", content: "Default sidebar: general math formulas" },
 
-  { name: "line", content: "F = ma", showAt: 0 },
-  { name: "sp", type: "image", content: imagesList[0] },
+  { name: "line", type: "heading", content: "Math Formula Showcase", showAt: 0 },
+  { name: "sp", type: "text", content: "This slide demonstrates KaTeX rendering." },
 
-  { name: "line", content: "m = 2 kg", showAt: 2 },
-  { name: "sp", type: "text", content: "Mass of the object is 2 kilograms." },
+  { name: "line", type: "math", content: "E = mc^2", showAt: 2 },
+  { name: "sp", type: "text", content: "Einstein's mass-energy equivalence." },
 
-  { name: "line", content: "a = 3 m/s²", showAt: 4 },
-  { name: "sp", type: "text", content: "Acceleration is 3 meters per second squared." },
+  { name: "line", type: "heading", content: "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}", showAt: 4 },
+  { name: "sp", type: "text", content: "Quadratic formula." },
 
-  { name: "line", content: "F = 2 × 3", showAt: 6 },
-  { name: "sp", type: "title", content: "Substitute into the formula" },
+  { name: "line", type: "text", content: "a^2 + b^2 = c^2", showAt: 6 },
+  { name: "sp", type: "text", content: "Pythagorean theorem." },
 
-  { name: "line", content: "F = 6 N", showAt: 8 },
-  { name: "sp", type: "text", content: "Result: The net force is 6 Newtons." },
+  { name: "line", type: "math", content: "\\int_a^b f(x)\\,dx", showAt: 8 },
+  { name: "sp", type: "text", content: "Definite integral from a to b." },
 
-  { name: "line", content: "Unit: Newton (N)", showAt: 10 },
-  { name: "sp", type: "text", content: "Named after Sir Isaac Newton." },
+  { name: "line", type: "math", content: "\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}", showAt: 10 },
+  { name: "sp", type: "text", content: "Basel problem — converging infinite sum." },
 
-  { name: "line", content: "Used in F = ma, W = mg", showAt: 12 },
-  { name: "sp", type: "text", content: "Also applies to weight calculations." },
+  { name: "line", type: "math", content: "\\lim_{x\\to0} \\frac{\\sin x}{x} = 1", showAt: 12 },
+  { name: "sp", type: "text", content: "Standard trigonometric limit." },
 
-  { name: "line", content: "F increases with mass", showAt: 14 },
-  { name: "sp", type: "text", content: "More mass → more force if acceleration is constant." },
+  { name: "line", type: "math", content: "\\log_b(x) = \\frac{\\log_c(x)}{\\log_c(b)}", showAt: 14 },
+  { name: "sp", type: "text", content: "Logarithmic base change formula." },
 
-  { name: "line", content: "F increases with acceleration", showAt: 16 },
-  { name: "sp", type: "text", content: "More acceleration → more force if mass is constant." },
+  { name: "line", type: "math", content: "\\vec{a} \\cdot \\vec{b} = ab\\cos\\theta", showAt: 16 },
+  { name: "sp", type: "text", content: "Dot product of vectors." },
+
+  { name: "line", type: "math", content: "\\nabla \\cdot \\vec{E} = \\frac{\\rho}{\\varepsilon_0}", showAt: 18 },
+  { name: "sp", type: "text", content: "Gauss's law (divergence of electric field)." },
 ]);
+
 
 export const deck = deckbuilder.build();

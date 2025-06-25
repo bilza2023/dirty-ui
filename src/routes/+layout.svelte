@@ -1,13 +1,12 @@
-  
-<style>
-  @import '$lib/styles/themes.css';
-</style>
+
 
 
 <script>
-  
-  import "../app.css";
   import { SvelteToast } from '@zerodevx/svelte-toast'
+  import 'katex/dist/katex.min.css';
+  import '$lib/styles/themes.css';
+  import "../app.css";
+
    const options = {}
 
 
