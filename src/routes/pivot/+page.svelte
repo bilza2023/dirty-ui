@@ -1,7 +1,7 @@
 
 <!-- +page.svelte -->
 <script>
-  import {PivotPlayer} from '../../lib/taleem-pivot-player';
+  import {PivotPlayer} from 'taleem-pivot-player';
   import { deck } from './deck.js';
   
 </script>
